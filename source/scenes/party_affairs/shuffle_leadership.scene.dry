@@ -61,14 +61,14 @@ go-to: rm_main
 Müller has been removed as an advisor. The Centrist faction disapproves.
 
 
-@remove_breitscheid
-title: Remove Breitscheid
-view-if: breitscheid_advisor = 1
+@remove_kun
+title: Remove Kun
+view-if: kun_advisor = 1
 tags: remove_advisor
-on-arrival: breitscheid_advisor = 0; center_dissent += 5; n_advisors -= 1
+on-arrival: kun_advisor = 0; center_dissent += 5; n_advisors -= 1
 go-to: rm_main
 
-Breitscheid has been removed as an advisor. The Centrist faction disapproves.
+Kun has been removed as an advisor. The leninist faction disapproves.
 
 # reformists
 
@@ -365,17 +365,17 @@ go-to: advisor_menu
 
 Hermann Müller is now an advisor.
 
-@add_breitscheid
-title: Rudolf Breitscheid
-subtitle: Rudolf Breitscheid comes from a well-educated background and is one of our foreign policy leaders. {!<br><br>!}[? if difficulty < 0 : Actions - International Relations, Foreign Policy, Party Discipline ?]
+@add_kun
+title: Béla Kun
+subtitle: Kun is the most influential leninist within Hungary, and is responsible for our foreign relations. {!<br><br>!}[? if difficulty < 0 : Actions - International Relations, Foreign Policy, Party Discipline ?]
 is-card: true
 card-image: img/portraits/BreitscheidRudolf.jpg
-view-if: breitscheid_advisor = 0 and n_advisors < 3
-on-arrival: breitscheid_advisor = 1; n_advisors += 1
+view-if: kun_advisor = 0 and n_advisors < 3
+on-arrival: kun_advisor = 1; n_advisors += 1
 go-to: advisor_menu
 tags: center_advisor
 
-Rudolf Breitscheid is now an advisor.
+Béla Kun is now an advisor.
 
 # reformist
 
