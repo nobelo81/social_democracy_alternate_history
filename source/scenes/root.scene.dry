@@ -540,7 +540,7 @@ Q.muller_advisor = 1; // Hermann Müller
 Q.muller_dead = 0;
 // okay I know Arthur Crispien was a leader irl but i couldn't find much interesting about him...
 Q.crispien_advisor = 0; // Arthur Crispien
-Q.hilferding_advisor = 1; // Rudolf Hilferding
+Q.kun_advisor = 1; // Béla Kun
 
 // left advisors
 Q.sender_advisor = 0; // Toni Sender
@@ -551,7 +551,7 @@ Q.seydewitz_advisor = 0; // Max Seydewitz
 
 // centrist alternate advisors
 Q.pfulf_advisor = 0; // Antonie Pfülf
-Q.breitscheid_advisor = 0; // Rudolf Breitscheid
+Q.hilferding_advisor = 0; // Rudolf Hilferding
 
 // Reformist advisors
 Q.severing_advisor = 0; // Carl Severing
